@@ -1,7 +1,8 @@
-import { PrimaryButton, DefaultButton, Checkbox, TextField } from "@fluentui/react"
+import { PrimaryButton, DefaultButton, Checkbox, TextField, initializeIcons } from "@fluentui/react"
 import {ChoiceGroupBasicExample as VerticalRadio} from './VerticalRadio'
 import Dropdown from "./Dropdown"
 
+initializeIcons();
 const Form = () => {
     return <form>
         <h1>Example Form</h1>
